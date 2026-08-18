@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q10 - Dropdown Selection</title>
+</head>
+<body>
+
+    <header>
+        <h1>Choose Your Travel Preferences</h1>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+
+            <!-- Country Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="india" selected>India</option>
+                <option value="uk">UK</option>
+            </select>
+            <br><br>
+
+            <!-- State Dropdown -->
+            <label for="state">State:</label>
+            <select id="state" name="state">
+                <option value="up" selected>Uttar Pradesh</option>
+                <option value="mh">Maharashtra</option>
+                <option value="rj">Rajasthan</option>
+            </select>
+            <br><br>
+
+            <!-- City Dropdown -->
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="mathura" selected>Mathura</option>
+                <option value="agra">Agra</option>
+                <option value="lucknow">Lucknow</option>
+            </select>
+            <br><br>
+
+            <!-- Favorite Tourist Place Dropdown -->
+            <label for="place">Favorite Tourist Place:</label>
+            <select id="place" name="place">
+                <option value="tajmahal" selected>Taj Mahal</option>
+                <option value="krishnajanmabhoomi">Krishna Janmabhoomi</option>
+                <option value="fatehpursikri">Fatehpur Sikri</option>
+            </select>
+
+        </form>
+
+        <!-- Summary Paragraph -->
+        <p>
+            Selected Preferences: Country - India, State - Uttar Pradesh,
+            City - Mathura, Favorite Tourist Place - Taj Mahal.
+        </p>
+    </main>
+
+</body>
+</html>
