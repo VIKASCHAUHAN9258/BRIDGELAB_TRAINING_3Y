@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submission</title>
+</head>
+<body>
+
+    <h1>Submit Form</h1>
+
+    <form action="result.html" method="get" target="resultFrame">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+
+    <!-- This iframe displays the result page after form submission. -->
+    <iframe
+        name="resultFrame"
+        width="500"
+        height="150"
+        title="Form Result">
+    </iframe>
+
+</body>
+</html>
