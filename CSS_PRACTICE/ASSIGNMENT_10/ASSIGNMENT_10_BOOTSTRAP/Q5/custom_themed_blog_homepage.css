@@ -1,0 +1,6 @@
+:root { --bs-primary:#6f42c1; --bs-font-sans-serif:'Inter',Arial,sans-serif; }
+body { font-family:var(--bs-font-sans-serif);background:#faf8ff;color:#241b35; }
+header,footer { background:#241b35;color:white; }
+.card { border:0;box-shadow:0 .5rem 1.5rem rgba(36,27,53,.1);transition:transform .3s; }
+.card:hover { transform:translateY(-5px); }
+.btn-primary { --bs-btn-bg:#6f42c1;--bs-btn-border-color:#6f42c1;--bs-btn-hover-bg:#59359c;--bs-btn-hover-border-color:#59359c; }

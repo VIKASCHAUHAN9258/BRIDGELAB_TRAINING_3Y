@@ -1,0 +1,4 @@
+body { background:#f5f7fb;font-family:Arial,sans-serif; }
+.product { transition:transform .3s,box-shadow .3s; }
+.product:hover { transform:translateY(-5px);box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important; }
+.product-img { height:150px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0d6efd,#6f42c1);color:white;font-weight:bold;letter-spacing:1px; }
