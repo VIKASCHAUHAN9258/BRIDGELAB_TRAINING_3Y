@@ -1,0 +1,12 @@
+/* Flexbox aligns all demonstration boxes horizontally. */
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; background: #f1f5f9; color: #172033; }
+main { width: 100%; padding: 40px 5%; text-align: center; }
+.boxes { display: flex; justify-content: center; align-items: stretch; gap: 20px; flex-wrap: wrap; }
+.box { min-width: 180px; background: white; transition: border-color .3s ease; }
+.box:hover { border-color: #2563eb; }
+.solid { border: 5px solid #172033; padding: 10px; }
+.dashed { border: 5px dashed #172033; padding: 20px; }
+.double { border: 8px double #172033; padding: 30px; }
+.groove { border: 8px groove #172033; padding: 40px; }
+.rounded { border-radius: 25px; }

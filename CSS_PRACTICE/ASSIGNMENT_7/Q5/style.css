@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; background: #f8fafc; color: #172033; }
+main { width: min(700px, 90%); padding: 35px; background: white; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,.1); }
+/* Attribute selector: targets text inputs only. */
+input[type="text"] { border: 2px solid #2563eb; }
+/* Attribute selector: targets links beginning with https. */
+a[href^="https"] { font-weight: bold; color: #059669; }
+/* Pseudo-class selectors. */
+a:hover { text-decoration: underline; }
+input:focus { outline: 3px solid #93c5fd; }
+.items li:nth-child(odd) { background: #e0f2fe; }
+/* Pseudo-elements add content before and after the heading. */
+h1::before { content: "★ "; }
+h1::after { content: " ★"; }
+/* Child combinator: direct children of .items. */
+.items > li { padding: 10px; }
+/* Adjacent sibling combinator: paragraph immediately after heading. */
+h1 + .controls { margin-top: 20px; }
+/* General sibling combinator: links after controls. */
+.controls ~ .links { margin-top: 20px; }
+/* Descendant combinator: all links inside .links. */
+.links a { margin-right: 18px; }
+.controls { display: flex; gap: 12px; flex-wrap: wrap; }
+input { padding: 12px; border-radius: 7px; }

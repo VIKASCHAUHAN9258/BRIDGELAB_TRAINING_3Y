@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; background: #eef2f7; color: #172033; }
+main { width: 100%; text-align: center; padding: 40px 5%; }
+.showcase { display: flex; justify-content: center; gap: 35px; flex-wrap: wrap; }
+.showcase > div { min-width: 120px; }
+.transform { width: 120px; height: 120px; display: flex; align-items: center; justify-content: center; margin: auto; border-radius: 12px; background: #2563eb; color: white; font-weight: bold; transition: all 0.4s ease; }
+.rotate:hover { transform: rotate(20deg); }
+.scale:hover { transform: scale(1.2); }
+.translate:hover { transform: translate(15px, -15px); }
+.skew:hover { transform: skew(15deg, 5deg); }

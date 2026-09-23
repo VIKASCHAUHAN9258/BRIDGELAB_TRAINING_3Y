@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Exploration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>CSS Box Model</h1>
+        <section class="model">
+            <div class="margin-layer">
+                <span class="label margin-label">Margin</span>
+                <div class="border-layer">
+                    <span class="label border-label">Border</span>
+                    <div class="padding-layer">
+                        <span class="label padding-label">Padding</span>
+                        <div class="content-layer">Content</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p>Margin is outside the border, padding is inside the border, and content is the innermost area.</p>
+        <section class="comparison">
+            <div class="default"><h2>Default Box</h2><p>content-box</p></div>
+            <div class="border-box"><h2>Border Box</h2><p>box-sizing: border-box</p></div>
+        </section>
+    </main>
+</body>
+</html>

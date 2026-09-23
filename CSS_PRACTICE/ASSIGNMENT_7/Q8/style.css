@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; background: #f1f5f9; color: #172033; }
+main { width: min(850px, 92%); text-align: center; padding: 30px; }
+.model { display: flex; justify-content: center; margin: 25px; }
+.margin-layer { padding: 35px; background: #fde68a; outline: 2px dashed #ca8a04; }
+.border-layer { padding: 25px; border: 12px solid #2563eb; background: #bfdbfe; }
+.padding-layer { padding: 30px; background: #bbf7d0; }
+.content-layer { padding: 35px; background: #22c55e; color: white; font-weight: bold; }
+.label { display: block; font-size: 13px; margin-bottom: 5px; }
+.margin-label { color: #854d0e; }
+.border-label { color: #1e3a8a; }
+.padding-label { color: #166534; }
+.comparison { display: flex; justify-content: center; gap: 25px; margin-top: 30px; flex-wrap: wrap; }
+.comparison div { width: 220px; height: 130px; padding: 20px; border: 10px solid #7c3aed; background: #ddd6fe; }
+.default { box-sizing: content-box; }
+.border-box { box-sizing: border-box; }

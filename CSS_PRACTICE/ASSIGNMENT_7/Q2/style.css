@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; font-family: Arial, sans-serif; background: #f8fafc; }
+.layout { min-height: 100vh; display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; padding: 30px; }
+.box { display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px; overflow: auto; border-radius: 12px; color: white; }
+.px { width: 220px; height: 150px; background: #2563eb; }
+.percent { width: 35%; min-height: 180px; background: #059669; }
+.vh { width: 240px; height: 25vh; max-width: 300px; background: #9333ea; }
+.em { width: 18em; height: 12em; background: #ea580c; }
+@media (max-width: 700px) { .percent { width: 90%; } }

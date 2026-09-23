@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #f8fafc; color: #172033; }
+main { width: min(850px, 90%); padding: 40px; background: white; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,.1); }
+article { line-height: 1.8; text-align: justify; }
+h1 { font-family: Georgia, serif; font-size: 38px; letter-spacing: 1px; text-align: center; }
+.serif { font-family: Georgia, serif; font-weight: 400; font-size: 20px; }
+.sans { font-family: Arial, sans-serif; font-weight: 600; font-size: 18px; letter-spacing: .5px; }
+.mono { font-family: "Courier New", monospace; font-size: 17px; }
+mark { background: #fde68a; color: #7c2d12; padding: 2px 5px; }
+strong { color: #1d4ed8; }
+em { color: #9333ea; }
+article p::first-letter { font-size: 1.6em; font-weight: bold; }
+article p::first-line { letter-spacing: .3px; }
