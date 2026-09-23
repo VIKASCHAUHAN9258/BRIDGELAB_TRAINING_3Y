@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; font-family: Arial, sans-serif; background: #f8fafc; color: #172033; }
+/* Element selector: styles every paragraph. */
+p { line-height: 1.6; }
+/* Class selector: styles elements with .intro. */
+.intro { color: #2563eb; }
+/* ID selector: targets exactly #special. */
+#special { font-weight: bold; color: #9333ea; }
+/* Attribute selector: targets links beginning with https. */
+a[href^="https"] { color: #059669; }
+/* Child combinator >: only direct children are selected. */
+.parent > ul { padding: 15px; background: #dbeafe; }
+/* Adjacent sibling +: selects the first p directly after ul. */
+ul + p { color: #dc2626; }
+/* General sibling ~: selects later p siblings. */
+ul ~ p { margin-left: 20px; }
+/* Descendant selector: all paragraphs inside .parent. */
+.parent p { background: #f1f5f9; padding: 8px; }
+header, footer { padding: 20px; text-align: center; background: #172033; color: white; }
+main { flex: 1; width: min(800px, 90%); margin: auto; padding: 35px 0; }

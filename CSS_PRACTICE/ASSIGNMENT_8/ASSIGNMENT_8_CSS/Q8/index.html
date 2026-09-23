@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Box-Sizing Comparison</h1>
+        <section class="comparison">
+            <article class="default">
+                <h2>Default</h2>
+                <p><strong>box-sizing: content-box</strong></p>
+                <p>Width excludes padding and border, so the total rendered size becomes larger.</p>
+            </article>
+            <article class="border">
+                <h2>Border Box</h2>
+                <p><strong>box-sizing: border-box</strong></p>
+                <p>Width includes padding and border, keeping the total size equal to the declared width.</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

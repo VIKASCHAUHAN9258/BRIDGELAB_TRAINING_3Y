@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; background: #eef2f7; color: #172033; }
+main { width: 100%; text-align: center; padding: 40px; }
+.effects { display: flex; justify-content: space-evenly; align-items: center; gap: 20px; flex-wrap: wrap; }
+.effects button, .effects a { padding: 14px 24px; border: 2px solid #2563eb; border-radius: 9px; background: white; color: #172033; text-decoration: none; cursor: pointer; box-shadow: 0 5px 12px rgba(0,0,0,.12); transition: all .3s ease; }
+.effects button:hover, .effects a:hover { color: white; background: #2563eb; transform: scale(1.08) rotate(1deg); box-shadow: 0 12px 25px rgba(37,99,235,.3); }
+.effects button:active { transform: scale(.98); }
+.effects button:focus { outline: 3px solid #93c5fd; outline-offset: 4px; }

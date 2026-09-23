@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380">
+<rect width="600" height="380" fill="#ddd6fe"/>
+<circle cx="470" cy="90" r="55" fill="#7c3aed" opacity=".85"/>
+<path d="M0 300 L150 130 L260 250 L370 120 L600 300 V380 H0Z" fill="#7c3aed"/>
+<text x="300" y="350" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="white">City</text>
+</svg>
