@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; font-family: Arial, sans-serif; background: #eef2f7; color: #172033; }
+main { padding: 40px 5%; }
+h1 { text-align: center; margin-bottom: 35px; }
+.cards { display: flex; flex-wrap: wrap; gap: 24px; }
+.cards article { flex: 0 0 calc(25% - 18px); padding: 35px 22px; text-align: center; background: white; border-radius: 12px; box-shadow: 0 7px 18px rgba(0,0,0,.08); transition: background .3s ease; }
+.cards article:hover { background: #dbeafe; }
+@media (max-width: 900px) {
+    .cards article { flex-basis: calc(50% - 12px); }
+}
+@media (max-width: 600px) {
+    .cards { flex-direction: column; }
+    .cards article { flex-basis: 100%; }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380">
+<rect width="600" height="380" fill="#bfdbfe"/>
+<circle cx="470" cy="85" r="55" fill="#2563eb" opacity=".85"/>
+<path d="M0 300 L145 130 L260 245 L375 115 L600 300 V380 H0Z" fill="#2563eb"/>
+<text x="300" y="350" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="white">Mountains</text>
+</svg>

@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; background: linear-gradient(135deg, #dbeafe, #ede9fe); color: #172033; }
+section { max-width: 900px; padding: 50px 7%; text-align: center; }
+h1 { font-size: clamp(1.5rem, 4vw, 3rem); margin-bottom: 25px; }
+p { font-size: clamp(1rem, 2vw, 1.5rem); line-height: 1.6; }
+@media (max-width: 700px) {
+    section { padding: 30px 5%; }
+    p { line-height: 1.8; }
+}
